@@ -4,6 +4,10 @@ var active_arrow = "#project-arrow";
 
 // Project click handler
 $( "#project-btn" ).click(function() {
+	if($(".navbar-toggle").hasClass("collapsed") == false) {
+		$(".navbar-toggle").click()
+	}
+
 	if(active_section != "#project-container") {
 		// Hide the currently active section &  arrow
 		$(active_section).css("display", "none");
@@ -28,6 +32,10 @@ $( "#project-btn" ).click(function() {
 
 // Volunteer click handler
 $( "#volunteer-btn" ).click(function() {
+	if($(".navbar-toggle").hasClass("collapsed") == false) {
+		$(".navbar-toggle").click()
+	}
+
   if(active_section != "#volunteer-container") {
 		// Hide the currently active section & arrow
 		$(active_section).css("display", "none");
@@ -52,6 +60,10 @@ $( "#volunteer-btn" ).click(function() {
 
 // Coursework click handler
 $( "#coursework-btn" ).click(function() {
+	if($(".navbar-toggle").hasClass("collapsed") == false) {
+		$(".navbar-toggle").click()
+	}
+
   if(active_section != "#coursework-container") {
 		// Hide the currently active section & arrow
 		$(active_section).css("display", "none");
