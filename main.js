@@ -87,12 +87,8 @@ $( "#coursework-btn" ).click(function() {
 });
 
 // Waypoint to help stick the navbar to the top of the window
-var waypoint = new Waypoint({
-  element: $(".navbar-default"),
-  handler: function() {
-		$(".navbar-default").toggleClass("navbar-fixed-top");
-  	console.log("Waypoint passed");
-  }
+var sticky = new Waypoint.Sticky({
+  element: $(".navbar-default")[0]
 })
 
 // JBox setup for images

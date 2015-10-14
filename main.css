@@ -128,6 +128,13 @@ a:hover {
   opacity: 0.95;
 }
 
+.stuck {
+  position: fixed;
+  top: 0px;
+  z-index: 1030;
+  width: 100%;
+}
+
 .navbar-nav {
   width: 100%;
 }
