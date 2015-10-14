@@ -1,0 +1,428 @@
+body, html {
+  font-size: 12px;
+  background: #F2F2F2;
+  padding: 0px;
+  margin: 0px;
+}
+
+.separator {
+  height: 2px;
+  width: 100%;
+  background: #1A1A1A;
+  margin-top: 50px;
+  opacity: .6;
+}
+
+.push {
+  padding: 20px;
+}
+
+.text-centered {
+  text-align: center;
+}
+
+.white-text {
+  color: white;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Alegreya', serif;
+}
+
+h1 {
+  margin: 10px;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+  transition: all 0.5s ease;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* Main Image styling */
+#main-image {
+  width: 100%;
+  height: 90%;
+  background-image: url("track.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.down-prompt {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  font-size: 100px;
+  margin-left: -50px;
+  text-align: center;
+}
+
+/* John Newcomb Intro Styling */
+
+.john-newcomb-container {
+  padding-top: 10%;
+}
+
+.john-newcomb {
+  background: #1A1A1A;
+  display: block;
+  height: 30%;
+  min-height: 300px;
+  width: 30%;
+  margin: 0px auto;
+  padding-top: 2.2em;
+  border-radius: 20px;
+  color: #FFFFFF;
+  opacity: 0.9;
+}
+
+.john-newcomb h1 {
+  font-size: 6em;
+}
+
+.john-newcomb h2 {
+  font-size: 3em;
+}
+
+/* About me styling */
+#about-me {
+  background: #1A1A1A;
+  width: 100%;
+  min-height: 500px;
+}
+
+#about-me-header {
+  margin-top: 50px;
+  background: #FFFFFF;
+  border-radius: 20px;
+  margin-bottom: 50px;
+}
+
+#about-me-header h1 {
+  padding: 5px;
+}
+
+.row-medium {
+  margin: auto 15%;
+}
+
+.about-me-text {
+  text-align: center;
+  font-size: 2em;
+  color: #FFFFFF;
+  line-height: 40px;
+}
+
+/* Header styling */
+
+.navbar {
+  opacity: 0.95;
+}
+
+.navbar-nav {
+  width: 100%;
+}
+
+.nav-tab {
+  width: 33.3%;
+  text-align: center;
+  padding: 10px;
+  font-family: 'Alegreya', serif;
+  font-size: 2em;
+  transition: all 1s ease;
+  position: relative;
+}
+
+.nav-tab i {
+  position: absolute;
+  font-size: 1.5em;
+  left: 50%;
+  bottom: -15px;
+  margin-left: -18px;
+}
+
+.nav-tab:hover {
+  cursor: pointer;
+  color: #118A71;
+}
+
+.nav-tab-active {
+  color: #118A71;
+}
+
+/* Main content styling */
+
+#volunteer-container, #coursework-container, #volunteer-arrow, #coursework-arrow {
+  display: none;
+}
+
+/* Project section styling */
+
+#galen, #relay{
+  margin-top: 100px;
+}
+
+#coursework-container {
+  margin-top: 80px;
+}
+
+#notemap {
+  margin: 75px 0px;
+}
+
+.item-title-container {
+  border: 5px solid #1A1A1A;
+  border-radius: 250px;
+  height: 250px;
+  width: 250px;
+  margin: 20px auto;
+  display: block;
+  position: relative;
+}
+
+.item-bar {
+  position: absolute;
+  height: 0.33em;
+  width: 10em;
+  background: #1A1A1A;
+  opacity: 0.6;
+  left: 50%;
+  margin-left: -5em;
+}
+
+.item-bar-top {
+  top: 6.5em;
+}
+
+.item-bar-bottom {
+  bottom: 6.5em;
+}
+
+.item-title {
+  font-family: 'Alegreya', serif;
+  font-size: 4em;
+  text-align: center;
+  margin-top: 85px;
+}
+
+.item-text {
+  margin-top: 20px;
+}
+
+.item-text p {
+  font-size: 1.8em;
+  line-height: 2.5em;
+}
+
+.visit-site-link {
+  font-family: 'Alegreya', serif;
+  color: #F2F2F2;
+  background: #118A71;
+  text-align: center;
+  margin: 10px auto;
+  display: block;
+  border: 2px solid #118A71;
+  height: 50px;
+  width: 150px;
+  line-height: 40px;
+  border-radius: 25px;
+  font-size: 24px;
+}
+
+.visit-site-link:hover {
+  color: #F2F2F2;
+  background: #0E705C;
+  border: 2px solid #0E705C;
+}
+
+.longer-link {
+  width: 175px;
+}
+
+/* Volunteer Section styling */
+.relay-image-header {
+  color: #118A71;
+}
+
+.relay-image {
+  width: 250px;
+  height: 200px;
+  border: 2px solid #1A1A1A;
+  margin: 15px auto;
+  display: block;
+}
+
+/* Coursework Styling */
+.class-card {
+  background: #F8F8F8;
+  border: 1px solid #1A1A1A;
+  border-radius: 10px;
+  margin: 10px auto;
+  display: block;
+}
+
+.class-header {
+  font-size: 2em;
+  border-radius: 150px;
+  border: 1px solid #2F2928;
+  background: #2F2928;
+  color: #F8F8F8;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px auto;
+  display: block;
+}
+
+.class-header p {
+  font-family: 'Alegreya', serif;
+  margin-top: 55px;
+}
+
+.class-header-special p {
+  font-family: 'Alegreya', serif;
+  margin-top: 45px;
+}
+
+.class-description {
+  font-size: 1.5em;
+  opacity: .6;
+  min-height: 50px;
+}
+
+/* Footer styling */
+#footer {
+  background: #2F2928;
+  width: 100%;
+  min-height: 200px;
+}
+
+#footer-header {
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.icon-circle {
+  border-radius: 55px;
+  height: 55px;
+  width: 55px;
+  background: #118A71;
+  display: block;
+  margin: 0px auto;
+  transition: all 1s ease;
+}
+
+.icon-circle:hover {
+  background: #0E705C;
+  position: relative;
+  cursor: pointer;
+}
+
+.icon {
+  position: absolute;
+  margin: 0px auto;
+  display: block;
+  padding: 5px;
+  height: 40px;
+  width: 40px;
+  top: 5px;
+  left: 50%;
+  margin-left: -20px;
+}
+
+#github {
+  top: 8px;
+}
+
+#resume {
+  top: 7px;
+}
+
+#linked {
+  margin-left: -19px;
+}
+
+.row-small {
+  margin: auto 25%;
+}
+
+/* Adding animation */
+#project-container, #volunteer-container, #coursework-container {
+  -vendor-animation-duration: 3s;
+}
+
+/* Responsive styling */
+@media (min-width: 1800px) {
+  #main-image {
+    height: 70%;
+  }
+
+  .row-medium {
+    margin: auto 5%;
+  }
+}
+
+@media (max-width: 1200px) {
+  #main-image {
+    height: 600px;
+  }
+
+  .john-newcomb {
+    min-height: 250px;
+    width: 300px;
+  }
+
+  .john-newcomb h1 {
+    font-size: 4em;
+  }
+
+  .john-newcomb h2 {
+    font-size: 2em;
+  }
+
+  .icon-circle {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 767px) {
+  .john-newcomb-container {
+    padding-top: 75px;
+  }
+
+  #main-image {
+    height: 400px;
+  }
+
+  .down-prompt {
+    bottom: -10px;
+  }
+
+  .about-me-text {
+    font-size: 1.8em !important;
+    margin-bottom: 20px;
+  }
+
+  .nav-tab {
+    width: 100%;
+  }
+
+  .nav-tab i {
+    visibility: hidden;
+  }
+
+  .item-text p {
+    font-size: 1.8em !important;
+  }
+
+  .row-small, .row-medium {
+    margin: auto;
+  }
+}
