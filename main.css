@@ -63,6 +63,7 @@ a:hover {
   font-size: 100px;
   margin-left: -50px;
   text-align: center;
+  color: #333 !important;
 }
 
 /* John Newcomb Intro Styling */
