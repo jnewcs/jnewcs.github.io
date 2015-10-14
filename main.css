@@ -41,6 +41,10 @@ a {
   transition: all 0.5s ease;
 }
 
+a:focus {
+  outline: inherit;
+}
+
 a:hover {
   text-decoration: none;
 }
@@ -64,6 +68,10 @@ a:hover {
   margin-left: -50px;
   text-align: center;
   color: #333 !important;
+}
+
+.down-prompt:hover {
+  cursor: pointer;
 }
 
 /* John Newcomb Intro Styling */
@@ -139,14 +147,19 @@ a:hover {
   width: 100%;
 }
 
-.nav-tab {
+.navbar-nav li {
   width: 33.3%;
+}
+
+.nav-tab {
+  width: 100%;
   text-align: center;
   padding: 10px;
   font-family: 'Alegreya', serif;
   font-size: 2em;
   transition: all 1s ease;
   position: relative;
+  box-sizing: inherit;
 }
 
 .nav-tab i {
@@ -159,11 +172,11 @@ a:hover {
 
 .nav-tab:hover {
   cursor: pointer;
-  color: #118A71;
+  color: #118A71 !important;
 }
 
 .nav-tab-active {
-  color: #118A71;
+  color: #118A71 !important;
 }
 
 /* Main content styling */
@@ -419,7 +432,7 @@ a:hover {
     margin-bottom: 20px;
   }
 
-  .nav-tab {
+  .navbar-nav li {
     width: 100%;
   }
 

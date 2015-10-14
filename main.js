@@ -15,7 +15,7 @@ $( "#project-btn" ).click(function() {
 		// Show the project section & arrow
 		$("#project-container").css("display", "inherit");
 		$("#project-arrow").css("display", "inherit");
-		$("#waypoint-trigger").get(0).scrollIntoView();
+		$(this).smoothScroll();
 
 		// Highlight btn
 		$(this).toggleClass("nav-tab-active", true);
@@ -47,7 +47,7 @@ $( "#volunteer-btn" ).click(function() {
 		// Highlight btn
 		$(this).toggleClass("nav-tab-active", true);
 		$(active_btn).toggleClass("nav-tab-active", false);
-		$("#waypoint-trigger").get(0).scrollIntoView();
+		$(this).smoothScroll();
 
 		// Reset variables
 		active_section = "#volunteer-container";
@@ -75,7 +75,7 @@ $( "#coursework-btn" ).click(function() {
 		// Highlight btn
 		$(this).toggleClass("nav-tab-active", true);
 		$(active_btn).toggleClass("nav-tab-active", false);
-		$("#waypoint-trigger").get(0).scrollIntoView();
+		$(this).smoothScroll();
 
 		// Reset variables
 		active_section = "#coursework-container";
@@ -94,3 +94,5 @@ var sticky = new Waypoint.Sticky({
 // JBox setup for images
 new jBox('Image');
 
+// Setup for down-prompt
+$(".down-prompt").smoothScroll();
